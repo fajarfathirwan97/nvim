@@ -13,7 +13,13 @@ if not pcall(require, "lazy") then
   vim.api.nvim_echo({ { ("Unable to load lazy from: %s\n"):format(lazypath), "ErrorMsg" }, { "Press any key to exit...", "MoreMsg" } }, true, {})
   vim.fn.getchar()
   vim.cmd.quit()
+  -- vim.g.claude_map_implement = "<Leader>Ai"
+-- let g:claude_map_open_chat = "<Leader>cc"
+-- let g:claude_map_send_chat_message = "<C-]>"
+-- let g:claude_map_cancel_response = "<Leader>cx"end
 end
 
 require "lazy_setup"
 require "polish"
+
+
