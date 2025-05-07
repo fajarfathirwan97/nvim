@@ -9,7 +9,7 @@ return { -- override nvim-cmp plugin
         },
         ft = "sql", -- optional but good to have
         opts = {}, -- needed
-      },
+    },
   },
   opts = function(_, opts)
     -- opts parameter is the default options table
